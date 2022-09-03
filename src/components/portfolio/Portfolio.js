@@ -48,7 +48,7 @@ const data = [
     image: IMG6,
     title: "Calculator",
     github: "https://github.com/adityapadwal/Calculator-React",
-    demo: "https://github.com/adityapadwal/Calculator-React"
+    demo: "https://adityapadwal.github.io/Calculator-React/"
   }
 ]
 
