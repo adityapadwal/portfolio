@@ -28,7 +28,7 @@ const data = [
     demo: "https://github.com/adityapadwal/NewsMonkey-React"
   },
   {
-    id: 5,
+    id: 4,
     image: IMG4,
     title: "TextUtils - Text Editor",
     github: "https://github.com/adityapadwal/TextUtils-React",
