@@ -4,52 +4,36 @@ import IMG1 from '../../assets/display1.png'
 import IMG2 from '../../assets/display2.png'
 import IMG3 from '../../assets/display3.png'
 import IMG4 from '../../assets/display4.png'
-import IMG5 from '../../assets/display5.png'
-import IMG6 from '../../assets/display6.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Weather App",
-    github: "https://github.com/adityapadwal/Javascript-MiniProjects/tree/master/Advanced/Weather%20App",
-    demo: "https://adityapadwal-weatherapp.netlify.app"
+    title: "Fullstack Bookings Application",
+    github: "https://github.com/adityapadwal/airbnb-clone",
+    demo: "https://github.com/adityapadwal/airbnb-clone"
   },
   {
     id: 2,
     image: IMG2,
-    title: "Spotify Clone",
-    github: "https://github.com/adityapadwal/Spotify-Clone",
-    demo: "https://adityapadwal-spotify.netlify.app"
+    title: "Fullstack E-commerce Web Application",
+    github: "https://github.com/adityapadwal/E-Commerce-Web-App",
+    demo: "https://github.com/adityapadwal/E-Commerce-Web-App"
   },
   {
     id: 3,
     image: IMG3,
-    title: "News App",
+    title: "NewsMonkey News App",
     github: "https://github.com/adityapadwal/NewsMonkey-React",
     demo: "https://github.com/adityapadwal/NewsMonkey-React"
   },
   {
-    id: 4,
-    image: IMG4,
-    title: "Snake Game",
-    github: "https://github.com/adityapadwal/Snake-Game",
-    demo: "https://adityapadwal-snakegame.netlify.app"
-  },
-  {
     id: 5,
-    image: IMG5,
-    title: "TextUtils",
+    image: IMG4,
+    title: "TextUtils - Text Editor",
     github: "https://github.com/adityapadwal/TextUtils-React",
-    demo: "https://adityapadwal-textutils.netlify.app"
+    demo: "https://github.com/adityapadwal/TextUtils-React"
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Calculator",
-    github: "https://github.com/adityapadwal/Calculator-React",
-    demo: "https://github.com/adityapadwal/Calculator-React"
-  }
 ]
 
 const Portfolio = () => {

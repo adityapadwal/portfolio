@@ -1,8 +1,14 @@
 .container.contact__container {
-    width: 58%;
+    width: 75%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    padding: 2rem;
+}
+
+#contact > div:hover{
+    border: 2px solid var(--color-primary-variant);
+    border-radius: 2rem;
 }
 
 .contact__options{

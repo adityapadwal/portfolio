@@ -24,38 +24,34 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Intern at Sparks Foundation</small>
+              <small>Intern @ Persistent Systems</small>
             </article>
 
             <article className="about__card">
               <BsFillBookmarkStarFill className="about__icon" />
               <h5>Academic GPA</h5>
-              <small>9.34 SGPA</small>
-              <small>(Second Year)</small>
+              <small>9.46 GPA</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
+              <small>15+ Completed Projects</small>
             </article>
 
             <article className="about__card">
               <FiStar className="about__icon" />
               <h5>Skills</h5>
-              <small>Problem Solving (DSA)</small>
+              <small>Web Development |</small>
+              <small> Cloud</small>
             </article>
 
           </div>
-
+          
           <p>
-            I am a Third Year Computer Engineering Undergraduate at Savitribai Phule
-            Pune University and currently studying at Dr. D. Y. Patil Institute of
-            Technology, Pimpri, Pune.
-          </p>
-          <p>
-          I am currently looking for internship opportunities
-          where I can put my skills to use and contribute towards making a change.
+            Hi, I'm Aditya, a 21-year-old Computer Science Engineering student with a deep-rooted passion for technology. 
+            I thrive on solving complex problems and turning innovative ideas into reality. 
+            My goal is to make a positive impact through my work, and I'm dedicated to pushing the boundaries of what technology can achieve.
           </p>
           
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

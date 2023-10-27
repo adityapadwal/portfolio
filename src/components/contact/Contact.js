@@ -1,7 +1,6 @@
 import React from 'react'
 import {MdMailOutline} from 'react-icons/md'
 import {FaWhatsappSquare} from 'react-icons/fa'
-import {SiMicrosoftoutlook} from 'react-icons/si'
 import './contact.css'
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
@@ -14,7 +13,7 @@ const Contact = () => {
     {
       e.preventDefault();
   
-      emailjs.sendForm('service_43rx63l', 'template_vf4u3is', form.current, 'M8OVKoo7665C9BQzA')
+      emailjs.sendForm('service_wws0pam', 'template_vf4u3is', form.current, 'lwZ2BofUS9vumLqh0')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
@@ -37,13 +36,6 @@ const Contact = () => {
               <h4>Email</h4>
               <h5>EMAIL ID: adityapadwal02@gmail.com</h5>
               <a href="mailto:adityapadwal02@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
-            </article>
-
-            <article className='contact__option'>
-              <SiMicrosoftoutlook className='contact__option-icon'/>
-              <h4>Outlook</h4>
-              <h5>EMAIL ID: aditya.padwal3102@outlook.com</h5>
-              <a href="mailto:aditya.padwal3102@outlook.com" target="_blank" rel="noreferrer">Send a message</a>
             </article>
 
             <article className='contact__option'>
