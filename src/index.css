@@ -1,5 +1,7 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+/* CSS Reset/normalizer */
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@
     text-decoration: none;
 }
 
-/* CSS variables */
+/* CSS variables (CSS custom properties) */
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
@@ -39,7 +41,6 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* ============== GENERAL STYLES ================== */
